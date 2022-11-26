@@ -1,0 +1,192 @@
+@charset "utf-8";
+/* стили для портретной и горизонтальной орентации мобильные устройства
+@media screen and (orientation:portrait) {}
+    
+@media screen and (orientation:landscape) {}
+     стили для горизонтальной */
+
+/* Основные тэги */
+body { background-color:#ebeff0}
+
+a:link {font-size:14px; color:#006834; text-decoration:none}
+a:visited {color:#408080; text-decoration:none}
+a:hover {color:#00C663; text-decoration:none}
+
+checkbox {color:#FF0000}
+
+h1 { 
+color: #86b876;
+font-size:25px;
+margin-left:28px;
+margin-top:19px;
+font-family:Verdana, Arial, Helvetica, sans-serif}
+
+h2 { color:#0f8774;
+font-family:Verdana, Arial, Helvetica, sans-serif}
+
+h3 { color:#0f8774;
+font-size:24px;
+font-family:Verdana, Arial, Helvetica, sans-serif}
+
+h4 { color:#999999;
+font-size:18px;
+margin-left:30px;
+margin-top:10px;
+margin-bottom:5px;
+font-family: "Times New Roman", Times, serif}
+
+h5 { color:#2D5959;
+font-size:18px;
+font-family:Verdana, Arial, Helvetica, sans-serif}
+
+section { 
+margin:auto; 
+border: 1px solid #8d8e8e; 
+width:100%; 
+background-color: #FFFFFF}
+
+hgroup {font-size:15px}
+
+figure {}
+
+table {
+}
+
+article {
+}
+
+
+p {
+font-size:15px;
+font-family: Geneva, Arial, Helvetica, sans-serif;
+color:#6C6C6C
+}
+
+details {
+width:92%;
+margin-left:40px;
+margin-top:25px;
+font-size:20px;
+outline:none;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+color: #6C6C6C
+}
+
+select {
+position:fixed;
+top:20px;
+right:60px;
+appearance:non;
+outline:none;
+border-color:#FFFFFF;
+text-decoration:underline 1px dashed}
+
+footer {
+
+}
+
+/* СТИЛИ ТАБЛИЦЫ ЛОТ */
+.futer {
+ font-size:18px; 
+ color:#004444; 
+ font-variant:small-caps; 
+ font-weight:100}
+ 
+ .parametrs {
+ line-height:195%; 
+ vertical-align:text-bottom; 
+ padding-top:3px;
+ font-size:14px;
+ color:#003737}
+ 
+ .bottom {
+ color:#999999; 
+ font-size:14px; 
+ padding-bottom:10px}
+ 
+ .position_car {
+ position:relative;
+ left:-20px; 
+ top:5px}
+/* ПОЗИЦИОНИРОВАНИЕ ПРАВОГО МЕНЮ */
+.menu_right {
+position:absolute; 
+top:310px;
+right:1.5%}
+/* ЗАГОЛОВОК ПОД МЕНЮ */
+.pod_h1 {
+position:absolute; 
+left:38px; 
+top:223px}
+/* ФИКСАЦИЯ ВЕРХНЕЙ ТАБЛИЦЫ */
+.fixed_top {
+display: block;
+position: fixed;
+top: 0px;
+left:0px;
+right:0px;
+z-index: 99999}
+/* ФИКСАЦИЯ ТАБЛИЦЫ ВЫБОРА ПАРАМЕТРОВ */
+.fix_select{
+display: block;
+position: absolute;
+top:-80px;
+z-index: 99999}
+/* СТИЛЬ ЧЕКБОКСА */
+.checkbox {
+position:absolute;
+z-index:-1;
+opacity:0;
+}
+.checkbox label:before {
+border-radius: 3px;
+}
+input [type=checkbox]:checked + label:before{
+content: "\2713";
+text-shadow: 1px 1px 1px rgba(0, 0, 0,.2);
+font-size:15px;
+color:#006600;
+text-align:center;
+line-height:15px;
+}
+ /* ВЫВОД ВАЛЮТЫ */
+ .valuta {
+ font-size:15px; 
+ color:#858585;
+ position:absolute;
+ left:25%; 
+ top:20px;}
+/* ВЫВОД ПОДСКАЗОК */
+.tooltip {
+			border-bottom: 0px dotted #000000; color: #000000; outline: none;
+			cursor: help; text-decoration: none;
+			position: relative;
+		}
+		.tooltip span {
+			margin-left: -999em;
+			position: absolute;
+		}
+		.tooltip:hover span {
+			border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+			box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+			font-family: Calibri, Tahoma, Geneva, sans-serif;
+			position: absolute; left: 0%; top: 2em; z-index: 99;
+			margin-left: 0; width: 250px; font-size:15px
+		}
+		.tooltip:hover img {
+			border: 0; margin: -10px 0 0 -55px;
+			float: left; position: absolute;
+		}
+		.tooltip:hover em {
+			font-family: Candara, Tahoma, Geneva, sans-serif; font-size: 1.2em; font-weight: bold;
+			display: block; padding: 0.2em 0 0.6em 0;
+		}
+		
+		.custom { padding: 0.3em 0.8em 0.8em 2em; }
+		
+		.classic {background: #FFFFAA; border: 1px solid #FFAD33; }
+		
+		
+		.info { background: #9FDAEE; border: 1px solid #2BB0D7;	}
+		
+

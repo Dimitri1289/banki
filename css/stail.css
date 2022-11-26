@@ -1,10 +1,4 @@
 @charset "utf-8";
-/* стили для портретной и горизонтальной орентации мобильные устройства
-@media screen and (orientation:portrait) {}
-    
-@media screen and (orientation:landscape) {}
-     стили для горизонтальной */
-
 /* Основные тэги */
 body { background-color:#ebeff0}
 
